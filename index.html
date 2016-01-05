@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+  <meta charset="utf-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Dlovsnej - Drawing with light</title>
+  <meta name="description" content="Dlovsnej">
+  <meta name="author" content="Heine Jensvold">
+
+  <link rel="stylesheet" href="css/jquery.fullPage.css?v=1.0">
+  <link rel="stylesheet" href="css/style.css?v=1.0">
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+</head>
+
+<body>
+  <div class="loader"></div>
+
+  <header id="header" class="header">
+    <nav>
+      <h1 title="Dlovsnej">
+        Dlovsnej <span class="sr-only">-</span> <span class="subtitle">Drawing with light</span>
+      </h1>
+      <!-- p><div class="simpleCart_grandTotal"></div></p -->
+    </nav>
+  </header>
+
+  <div id="fullpage">
+  
+    <!-- Section: Gallery -->
+    <section class="section">  
+  
+      <!-- In The Twilight -->
+      <article class="slide interactive in-the-twilight active">
+        <h2 title="In The Twilight">In The Twilight</h2>
+      </article>
+      
+      <!-- Deep Encounter -->
+      <article class="slide interactive deep-encounter">
+        <h2 title="Deep Encounter">Deep Encounter</h2>
+      </article>
+      
+      <!-- Look Between -->
+      <!-- article class="section look-between">
+        <h2 title="Look Between">Look Between</h2>
+      </article -->
+      
+      <!-- Elan Vital II -->
+      <!-- article class="slide elan-vital-2">
+        <h2 title="Elán Vital II">Elán Vital II</h2>
+      </article -->
+      
+      <!-- Shinju -->
+      <article class="slide article interactive shinju">
+        <h2 title="Shinju">Shinju</h2>
+      </article>
+      
+      <!-- -->
+      <article class="slide article interactive untitled">
+      </article>
+      
+      <!-- -->
+      <article class="slide article interactive untitled-2">
+        <h2 title="Autumn Foliage">Autumn Foliage</h2>
+      </article>
+      
+    </section>
+    
+    <!-- Section: Gallery -->
+    <section class="section gallery">
+      <h2 title="Gallery">Gallery</h2> 
+      
+      <article class="slide article-product">
+        <div class="container simpleCart_shelfItem">
+          <figure class="figure"> 
+            <img src="img/spectrum-oslo.jpg" alt="Spectrum.Oslo">
+          </figure>
+          <h3 class="item_name" title="Spectrum.Oslo">Spectrum.Oslo</h3>
+          <p class="sr-only">From <span class="item_price">$300</span></p>
+          <label>
+            <select class="item_size">
+              <option value="50x70">70x50 - $300</option>
+              <option value="70x100">100x70 - $420</option>
+              <option value="90x120">120x90 - $540</option>
+            </select>
+          </label>
+          <a href="javascript:;" class="item_add btn btn-buy" title="Add to Cart">Add to Cart</a>
+        </div>
+      </article>
+      
+      <article class="slide article-product">
+        <div class="container simpleCart_shelfItem">
+          <figure class="figure"> 
+            <img src="img/in-the-twilight.jpg" alt="In The Twilight">
+          </figure>          
+          <h3 class="item_name" title="In The Twilight">In The Twilight</h3>
+          <p class="sr-only">From <span class="item_price">$300</span></p>
+          <label>
+            <select class="item_size">
+              <option value="50x70">70x50 - $300</option>
+              <option value="70x100">100x70 - $420</option>
+              <option value="90x120">120x90 - $540</option>
+            </select>
+          </label>
+          <a href="javascript:;" class="item_add btn btn-buy" title="Add to Cart">Add to Cart</a>
+        </div>
+      </article>
+      
+      <article class="slide article-product">
+        <div class="container simpleCart_shelfItem">
+          <figure class="figure"> 
+            <img src="img/shinju.jpg" alt="Shinju">
+          </figure>          
+          <h3 class="item_name" title="Shinju">Shinju</h3>
+          <p class="sr-only">From <span class="item_price">$300</span></p>
+          <label>
+            <select class="item_size">
+              <option value="50x70">70x50 - $300</option>
+              <option value="70x100">100x70 - $420</option>
+              <option value="90x120">120x90 - $540</option>
+            </select>
+          </label>
+          <a href="javascript:;" class="item_add btn btn-buy" title="Add to Cart">Add to Cart</a>
+        </div>
+      </article>
+      
+    </section>
+    
+    <!-- Section: About -->
+    <section class="section about interactive untitled-3">
+      <div class="container">
+        <article class="article">
+          <h2 title="About me">About me</h2>
+          <p>Dlovsnej are fine-art photographer Heine Jensvold.</p>
+          <p>I'm based in Oslo, Norway, and explore the more ambient and abstract art of drawing with light.</p>
+          <p>Available for both commercial and private assignment.</p>
+          <address class="address h-card">
+            <h3 class="p-name" title="Heine Jensvold">
+              <span class="p-given-name">Heine</span> 
+              <span class="p-family-name">Jensvold</span>
+            </h3>
+            <p><a href="tel:+4793403538" class="p-tel" title="Call me">+47 934 03 538</a><br />
+            <a href="mailto:heine.jensvold@gmail.com" class="u-email" title="E-mail me">heine.jensvold@gmail.com</a></p>
+          </address>
+        </article>
+      </div>
+    </section>
+    
+  </div>
+  
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="js/simpleCart.min.js"></script>
+
+  <script src="js/jquery.fullPage.min.js"></script>
+  <script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+				anchors:['welcome', 'gallery', 'about' /*'look-between', 'Elan-Vital-II', 'Shinju'*/],
+				navigation: false,
+				navigationPosition: 'right',
+				slidesNavigation: false,
+				slidesNavPosition: 'bottom',
+				loopHorizontal: false,
+				controlArrows: false
+			});
+		});
+		
+		simpleCart.bind('beforeAdd', function (item) {
+	    var basePrice = 300;
+	    if (item.get('size') == '50x70') {
+	        item.price(basePrice + 0);
+	    } else if (item.get('size') == '70x100') {
+	        item.price(basePrice + 120);
+	    } else if (item.get('size') == '') {
+	        item.price(basePrice + 120);
+	    //} else if (item.get('size') == 'Long' && item.get('otherProperty')) {
+	    //    item.price(basePrice + 9);
+	    }
+		});
+	</script>
+</body>
+</html>
